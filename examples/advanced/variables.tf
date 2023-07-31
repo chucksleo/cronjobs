@@ -9,7 +9,7 @@ variable "namespace" {
 variable "cronjob_name" {
   description = "The name of the CronJob"
   type        = string
-  required    = true
+  # required    = true
 }
 
 variable "api_version" {
@@ -39,7 +39,7 @@ variable "failed_jobs_history_limit" {
 variable "schedule" {
   description = "The schedule for the CronJob"
   type        = string
-  required    = true
+  # required    = true
 }
 
 variable "timezone" {
@@ -69,7 +69,7 @@ variable "ttl_seconds_after_finished" {
 variable "container_image" {
   description = "The container image for the CronJob"
   type        = string
-  required    = true
+  # required    = true
 }
 
 variable "labels" {
